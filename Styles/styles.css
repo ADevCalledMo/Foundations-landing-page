@@ -56,9 +56,10 @@ body {
  }
 
  .image {
-    width: 600px;
+    width: 650px;
     height: 300px;
     background-color: #E5E7EB;
+    opacity: 50%;
  }
 
  .info {
@@ -89,5 +90,53 @@ body {
    font-size: 2.5rem;
    max-width: 800px;
    text-align: center;
+ }
+
+
+ .cta {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 300px;
+   margin: 1rem;
+ }
+
+ .cta-card {
+   display: flex;
+   justify-content:space-around;
+   align-items: center;
+   height: 150px;
+   width: 1200px;
+   background-color: var(--cta-bg);
+   border-radius: 6px;
+ }
+
+
+.card-left {
+   color: var(--hero-text);
+}
+
+ .card-left h3 {
+   margin: 0;
+   font-size: 1.7em;
+ }
+
+ .card-left p {
+   margin: 0;
+   font-size: 1.2em;
+ }
+
+
+ .footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80px;
+   background-color: var(--dark-bg);
+ }
+
+ .footer p {
+   font-size: 1.2rem;
+   color: var(--hero-text);
  }
 
